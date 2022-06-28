@@ -5,10 +5,10 @@ install the latest docker engine package using this command
 sudo amazon-linux-extras install docker
 
 sudo service docker start
-Sudo systemctl enable docker 
+sudo systemctl enable docker 
 
  execute Docker commands without using sudo.
- Sudo usermod -a -G docker ec2-user
+ sudo usermod -a -G docker ec2-user
  
  getent group
  getent group docker 
