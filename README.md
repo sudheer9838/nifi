@@ -1,3 +1,4 @@
+```
 sudo su
 sudo yum update -y
 
@@ -38,3 +39,4 @@ docker update --restart=always nifi
 
 To see Read the available restarting policies,
 docker inspect -f "{{ .HostConfig.RestartPolicy }}" nifi
+```
